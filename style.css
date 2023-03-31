@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: Poppins;
+}
+
+form{
+    background-color: rgb(223, 223, 223);
+    border-radius: 16px;
+    width: 360px;
+    padding: 32px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+input[type="submit"] {
+    background-color: #4fbef1;
+    color: white;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
