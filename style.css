@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body > header {
+    background-color: #305ffd;
+    padding: 16px 0;
+    color: #ffffff;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #305ffd;
+    padding: 8px;
+    font-weight: bolder;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16x 0;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #305ffd;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    background-color: #577bf1;
+}
+
+#sports {
+    background-color: #afdaf8;
+}
+
+#economy {
+    background-color: rgb(249, 227, 199);
+}
+
+#economy .articles article a {
+    background-color: rgb(243, 184, 106);
+    color: black;
+    font-weight: bold;
+}
+
+#fashion {
+    background-color: rgb(249, 171, 222);
+}
+
+#fashion .articles article a {
+    background-color: rgb(203, 95, 165);
+    color: black;
+    font-weight: bold;
+}
+
+#entertainment {
+    background-color: rgb(195, 248, 148);
+}
+
+#entertainment .articles article a {
+    background-color: rgb(99, 167, 40);
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #305ffd;
+    padding: 24px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #305ffd;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 8px;
+    font-weight: bold;
+}
