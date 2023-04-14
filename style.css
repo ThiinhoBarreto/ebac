@@ -36,7 +36,7 @@ form {
 
 form input, label {
     padding: 8px;
-    margin-inline: 8px;
+    margin-bottom: 16px;
     border-radius: 8px;
     max-width: 200px;
 }
