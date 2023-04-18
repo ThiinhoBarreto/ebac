@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>Minhas tarefas</h1>
+        <button type="button">Nova tarefa +</button>
+    </header>
+    <form action="">
+        <h2>Inserir nova tarefa</h2>
+        <input type="text" name="input-tarefa" id="input-tarefa" required placeholder="Nova tarefa">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="bnt-cancel">Cancelar</button>
+    </form>
+    <div class="container">
+        <div class="containerList">
+            <ol>
+                <li>
+                    <p>Devocional</p>
+                </li>
+                <li>
+                    <p>Café da manhã</p>
+                </li>
+                <li>
+                    <p>Check-In no trabalho</p>
+                </li>
+                <li>
+                    <p>Reunião as 9:00h</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

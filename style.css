@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: #747475;
+}
+header {
+    background-color: #393939;
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 16px solid #fae20c;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Bungee';
+    font-display: flex;
+    font-weight: normal;
+    color: #f3f3f5;
+    
+}
+
+button {
+    margin-left: 16px;
+    max-height: 48px;
+    width: auto;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #fae20c;
+    color: #393939;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form {
+    background-color: #494949;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+input {
+    margin-left: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+form h2 {
+    color: #f3f3f5;
+    margin-bottom: 8px;
+}
+
+#bnt-cancel {
+    background-color: #fb5c5c;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+ol li {
+    list-style: none;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+.containerList {
+    display: flex;
+    overflow: auto;
+    max-width: 360px;
+    width: 100%;
+    max-height: 90vh;
+    background-color: #faef8e;
+    margin: 16px auto;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.sublinhado {
+    text-decoration: line-through;
+}
