@@ -1,0 +1,203 @@
+:root {
+  --minha-cor: #fffbc4;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrLPTedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+.marginBottom24 {
+  margin-bottom: 32px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  color: #ffffff;
+}
+body {
+  background-color: #363640;
+}
+body h1 {
+  font-family: Montserrat, sans-serif;
+}
+body h2 {
+  font-family: Roboto, sans-serif;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 70%;
+    font-size: small;
+  }
+  .container p {
+    text-align: justify;
+    margin: 0 auto;
+  }
+  .container h1 {
+    font-size: 20px;
+  }
+  .container h2 {
+    font-size: 18px;
+  }
+  .container .social-links {
+    width: 200px;
+  }
+  .container .social-links img {
+    width: 24px;
+  }
+}
+header {
+  padding: 48px;
+  text-align: center;
+}
+header img {
+  border-radius: 50%;
+  border: 2px solid var(--minha-cor);
+  margin-bottom: 32px;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  transition: all ease 0.4s;
+}
+header img:hover {
+  transform: scale(1.1);
+}
+header h1 {
+  margin: 16px 0;
+}
+header h2 {
+  margin-bottom: 32px;
+}
+header p {
+  opacity: 0.8;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  width: 260px;
+}
+.social-links li {
+  list-style: none;
+}
+.social-links li img {
+  width: 48px;
+}
+.social-links li img:hover {
+  animation: ani-ring 2s ease infinite;
+}
+.social-links li .bsq {
+  display: none;
+}
+.social-links li .icons:hover .bnc {
+  display: none;
+}
+.social-links li .icons:hover .bsq {
+  display: inline-block;
+}
+.projects-links {
+  margin-top: 16px;
+  list-style: none;
+}
+.projects-links-item a {
+  display: block;
+  color: #363640;
+  text-decoration: none;
+  background-color: var(--minha-cor);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border: 2px solid var(--minha-cor);
+  border-radius: 48px;
+  transition: all ease 0.5s;
+  text-align: center;
+}
+.projects-links-item a:hover {
+  color: var(--minha-cor);
+  background-color: transparent;
+}
+@keyframes ani-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
